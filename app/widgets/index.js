@@ -17,6 +17,13 @@
               route: 'dFiddle',
               moduleId: 'dFiddle/index',
               nav: true
+          },
+          {
+              type: 'fiddle',
+              title: 'Widget Composition',
+              route: 'composition',
+              moduleId: 'composition/index',
+              nav: true
           }
       ])
       .buildNavigationModel();

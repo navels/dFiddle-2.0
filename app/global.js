@@ -1,7 +1,7 @@
 ﻿define(['durandal/system', 'knockout'],
   function( system, ko ) {
 
-      var dFiddleRepoSource = 'https://github.com/dFiddle/dFiddle-2.0/tree/gh-pages/app/';
+      var dFiddleRepoSource = 'https://github.com/navels/dFiddle-2.0/tree/gh-pages/app/';
 
       var isDFiddle = ko.observable(false);
       var dFiddleRepoUrl = ko.observable('');
