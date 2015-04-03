@@ -1,4 +1,3 @@
-.idea/
 *resharper.user
 [Dd]ebug/
 [Rr]elease/
@@ -8,7 +7,6 @@ build/
 *.suo
 *.sln.cache
 _ReSharper.*/
-.idea*
 *.resharper
 resharper.settings.xml
 *.user
