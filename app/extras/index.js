@@ -66,6 +66,14 @@
                 hash: '#extras/scope/ctor',
                 moduleId: 'scope/ctor',
                 nav: true
+            },
+            {
+                type: 'fiddle',
+                title: 'get/set',
+                route: 'getset/index',
+                hash: '#extras/getset/index',
+                moduleId: 'getset/index',
+                nav: true
             }
         ])
         .buildNavigationModel();
