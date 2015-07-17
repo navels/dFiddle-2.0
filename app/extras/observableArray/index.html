@@ -1,0 +1,25 @@
+<p>Demonstration of bug with the observable plugin's handling of observable arrays.  All three arrays should update
+when the button is clicked but only the first and third do.</p>
+
+<button data-bind="click: add" style="display: block;">Add Item to Each Array</button>
+
+<div style="float: left; margin-right: 20px;">
+  <h5>Array 1</h5>
+  <ul data-bind="foreach: arr1" style="float: left;">
+    <li data-bind="text: $index"></li>
+  </ul>
+</div>
+
+<div style="float: left; margin-right: 20px;">
+  <h5>Array 2</h5>
+  <ul data-bind="foreach: arr2" style="float: left;">
+    <li data-bind="text: $index"></li>
+  </ul>
+</div>
+
+<div style="float: left; margin-right: 20px;">
+  <h5>Array 3</h5>
+  <ul data-bind="foreach: arr3" style="float: left;">
+    <li data-bind="text: $index"></li>
+  </ul>
+</div>

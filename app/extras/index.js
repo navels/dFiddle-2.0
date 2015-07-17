@@ -74,6 +74,14 @@
                 hash: '#extras/getset/index',
                 moduleId: 'getset/index',
                 nav: true
+            },
+            {
+                type: 'fiddle',
+                title: 'observableArray',
+                route: 'observableArray/index',
+                hash: '#extras/observableArray/index',
+                moduleId: 'observableArray/index',
+                nav: true
             }
         ])
         .buildNavigationModel();
