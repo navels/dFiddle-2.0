@@ -5,7 +5,7 @@
         'plugins': '../lib/durandal/js/plugins',
         'transitions': '../lib/durandal/js/transitions',
         'knockout': [
-            '//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-min',
+            '//cdnjs.cloudflare.com/ajax/libs/knockout/3.1.0/knockout-debug',
             '../lib/knockout/knockout-3.1.0'
         ],
         'jquery': [
