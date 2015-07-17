@@ -27,8 +27,8 @@ MSSCCPRJ.SCC
 *.debug.css
 Packages/
 *.db
-.idea/misc.xml
-.idea/workspace.xml
+\.idea/misc.xml
+\.idea/workspace.xml
 
 !skeletons/vsix/DurandalMvcSpaTemplateVsix/packages/
 !build.bat
